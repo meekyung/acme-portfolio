@@ -1,0 +1,66 @@
+@import url('normalize.css');
+@import url('reset.css');
+
+:root{
+/* Layout */
+--base-unit:27px;
+--container: 1272px;
+
+
+/* Color styles */
+--light-gray: rgba(235, 235, 235, 1);
+--medium-gray: rgba(168, 168, 168, 1);
+--black: rgba(44, 44, 44, 1);
+--dark-gray: rgba(110, 110, 110, 1);
+--primary: rgba(154, 199, 91, 1);
+--secondary: rgba(85, 118, 44, 1);
+--white: rgba(255, 255, 255, 1);
+
+/* Text-size styles */
+--body--ff: "Open Sans", sans-serif;
+--body: 16px;
+--banner--tt: calc(var(--base-unit) * 2);
+--section--tt: calc(var(--body) * 2);
+--content--tt: calc(var(--body) * 1.5);
+--body--link: var(--body);
+--section--desc: calc(var(--body) * 1.125);
+}
+/* typography */
+body{
+    /*
+    font-family: var(--body--ff);
+    font-seze: var(--body);
+    line-heght:var(--base-unit);
+    */
+    font:var(--body)/var(--base-unit) var(--body--ff);
+}
+.banner-tt{
+    font-size: var(--banner--tt);/* 54px */
+    line-heght:var(--banner--tt);/* 54px */
+}
+.section-tt{
+    font-size: var(--section--tt);
+}
+.content-tt{
+    font-size: var(--content--tt);
+}
+.link{
+    text-decoration: underline;
+}
+.btn{
+    height: 39px;
+    padding: 0 20px;
+    background: var(--light-gray);
+    color: var(--dark-gray);
+    font-size: calc(var(--body) * 0.875);
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+/* colors */
+.primary{
+    color: var(--primary);
+}
+.secondary{
+    color: var(--secondary);
+}
