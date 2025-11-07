@@ -22,14 +22,21 @@
     justify-content: space-between;
     align-items: center;
 }
-.qna_list . .question span{
+.qna_list .question span{
     opacity: 0.4;
+    transform: 0.5s;
 }
 .qna_list .answer{
     padding: 20px;
     display: none;
 }
+.qna_list .active .question{
+    font-weight: bold;
+}
+.qna_list .active .question span{
+    opacity: 1;
+    transform: rotate(180deg);
+}
 .qna_list .active .answer{
-    display: block;
-    font-weight: bold;    
+    display: block;    
 }

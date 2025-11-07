@@ -224,6 +224,7 @@ header nav ul li:first-child a{
 
 /* SLIDESHOW */
 .wrapper{
+  width: 100%;
   position: relative;
   overflow:hidden;
 }
