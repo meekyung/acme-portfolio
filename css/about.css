@@ -14,3 +14,22 @@
 .qna_list li + li{
     margin-top: 1px;
 }
+.qna_list .question{
+    height: 54px;
+    padding: 0 20px;
+    background: var(--light-gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.qna_list . .question span{
+    opacity: 0.4;
+}
+.qna_list .answer{
+    padding: 20px;
+    display: none;
+}
+.qna_list .active .answer{
+    display: block;
+    font-weight: bold;    
+}
