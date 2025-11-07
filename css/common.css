@@ -187,3 +187,26 @@ header nav ul li:first-child{
 header nav ul li:first-child a{
   color: var(--black);
 }
+
+/* FOOTER */
+.cta{
+  background: #292C2E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 54px;
+  text-align: center;
+}
+.cta .section_tt{
+  color: var(--white);  
+  margin-bottom: 27px;
+}
+.cta .section_desc{
+  color: var(--medium-gray);
+}
+.copyright{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
