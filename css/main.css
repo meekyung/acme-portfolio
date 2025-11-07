@@ -7,12 +7,7 @@
 .banner .section_tt{
   color:var(--white);
 }
-.banner .titles {
-  display: flex;
-  flex-direction: column;
-  gap:var(--base-unit);
-  text-align: center;
-}
+
 .feature_list {
   display: flex;
   gap:27px;
@@ -35,19 +30,6 @@
   color: #439CCF;
   font-size: 36px;
 }
-.testimonial .wrapper{
-  position: relative;
-  overflow:hidden;
-}
-.testimonial_list{
-  transition: 0.5s;
-  width: calc(var(--container) * 3);
-  display: flex;
-}
-.testimonial_list li{
-  text-align: center;
-  width: 100%;
-}
 
 .testimonial_list li p{
   font-size: 24px;
@@ -60,19 +42,4 @@
 }
 .testimonial_list li small{
   color: #489dcd;
-}
-.testimonial button{
-  position: absolute;
-  color: var(--light-gray);
-  top:50%;
-  transform:translateY(-50%);
-}
-.testimonial button span{
-  font-size: 45px;
-}
-.testimonial button.prev{
-  left: 0;
-}
-.testimonial button.next{
-  right: 0;
 }
