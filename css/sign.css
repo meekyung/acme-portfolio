@@ -1,0 +1,30 @@
+.signform{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  position: relative;
+}
+.feedback {
+  width: 260px;
+  position: absolute;
+  background: var(--white);
+  border-radius:3px;
+  padding: 20px;
+  color: #F30000;
+  left:calc(100% + 58px);
+  top: 0;
+}
+.feedback p + p{
+  margin-top: 27px;
+}
+.feedback:after{
+  content:'';
+  width: 0;
+  height: 0;
+  border-width: 7px 9px;
+  border-style:solid;
+  border-color:transparent var(--white) transparent transparent;
+  position: absolute;
+  top: 26px;
+  right: 100%;
+}
